@@ -34,5 +34,5 @@
     </tr>
 </table>
 
-<a href="{{ route('alumnos.index') }}" class="btn btn-secondary">Regresar</a>
+<a href="{{ route('alumnos.index') }}" class="btn btn-secondary">Regresar al listado</a>
 @endsection

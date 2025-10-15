@@ -43,5 +43,7 @@
         <input type="text" name="carrera" class="form-control" value="{{ old('carrera') }}">
     </div>
     <button class="btn btn-primary">Crear</button>
+    <a href="{{ route('alumnos.index') }}" class="btn btn-secondary">Regresar al listado</a>
+
 </form>
 @endsection
